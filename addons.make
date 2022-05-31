@@ -1,0 +1,6 @@
+ofxArtnet
+ofxDatGui
+ofxGui
+ofxNetwork
+ofxOsc
+ofxXmlSettings

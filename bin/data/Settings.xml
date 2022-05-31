@@ -1,0 +1,25 @@
+<Settings>
+    <ArtNet>
+        <WindowW>512</WindowW>
+        <WindowH>512</WindowH>
+        <Port>6454</Port>
+        <!-- ArtNet标准端口，不需要改动 -->
+        <Destination>127.0.0.1</Destination>
+        <!-- 支持单播或广播，单播地址为目标IP，多播地址为目标多播地址 -->
+        <Net>0</Net>
+        <Subnet>0</Subnet>
+        <FirstUniverse>0</FirstUniverse>
+        <AmntUniverse>512</AmntUniverse>
+        <AutoPlay>0</AutoPlay>
+        <!-- 软件打开时，数据是否自动播放 -->
+        <VideoName>output.mov</VideoName>
+        <Fps>60</Fps>
+        <!-- 数据发送频率 -->
+        <Gui>0</Gui>
+        <!-- 默认是否显示UI控件 -->
+    </ArtNet>
+    <OSC>
+        <Port>9001</Port>
+    </OSC>
+    
+</Settings>
